@@ -306,6 +306,8 @@ if (guessNumber === 7 ){
     document.write ("<h2> BINGO! Correct Answer </h2>");
 } if (guessNumber === 6){
     document.write("<h2> Close enough to the correct answer </h2>");
+}else{
+    document.write("<h2> You Not Entered Any Number </h2>");
 }
 
 //   Question 8
