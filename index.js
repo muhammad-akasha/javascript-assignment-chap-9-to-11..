@@ -22,9 +22,9 @@ if (age <= 3) {
     console.log("your entry is free");
 }
 else if (age > 3 && age <= 12) {
-    console.log("<h2> your ticket price is", ticketPriceForKids ," </h2> ");
+    console.log("<h2> your ticket price is ", ticketPriceForKids ," </h2> ");
 
-    document.write("<h2> your ticket price is", ticketPriceForKids, "</h2>");
+    document.write("<h2> your ticket price is ", ticketPriceForKids, "</h2>");
 }
 else if (age >= 13 && age <= 50) {
     console.log("your ticket price is ", ticketPriceForAdults);
@@ -50,7 +50,7 @@ let cityName = prompt("enter a city name");
 
 if (cityName === "karachi"){
 
-    document.write("<h1> City Name </h1>" , cityName);
+    document.write("<h1> City Name " , cityName , "</h1>");
 
     console.log("welcome to the city of light");
     document.write( "<h2> welcome to the city of light  </h2>");
@@ -71,7 +71,7 @@ let gender = prompt(" enter your gender ");
 
 if ( gender === "male"){
 
-    document.write("<h1> Gender </h1>" , gender)
+    document.write("<h1> Gender " , gender ,"</h1>")
 
     console.log("Good Morning sir");
 
@@ -80,7 +80,7 @@ if ( gender === "male"){
 }
 else if ( gender === "female"){
 
-    document.write("<h1> Gender </h1>" , gender)
+    document.write("<h1> Gender " , gender , "</h1>")
 
     console.log("Good Morning maa'm");
 
@@ -105,7 +105,7 @@ let greenColor = "Move Now.";
 
 let signalColors = prompt("Enter Only A Traffic Signal Color");
 
-document.write("<h2> You Entered " , signalColors , ". </h2>" );
+document.write("<h2> Signal Is " , signalColors , ". </h2>" );
 
 if (signalColors === "red"){
 
